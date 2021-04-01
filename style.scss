@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s, background-color 0.3s;
+  &:hover {
+    background-color: blue;
+    color: whitesmoke;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .stoper {
+    padding: 5px;
+    background-color: black;
+    border: 10px green solid;
+    .display {
+      background-color: lightgrey;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+}
