@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     if (!isRunning) {
       isRunning = true;
       inter = setInterval(() => {
-        audio.play();
+        // audio.play();
         time.msec++;
         console.log("tik tok");
         if (time.msec == 10) {
