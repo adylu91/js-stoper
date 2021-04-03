@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
         console.log("tik tok");
         if (time.msec == 10) {
           time.sec++;
-          git;
           time.msec = 0;
         }
         if (time.sec == 60) {
