@@ -29,11 +29,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     if (!isRunning) {
       isRunning = true;
       inter = setInterval(() => {
-        audio.play();
+        // audio.play();
         time.msec++;
         console.log("tik tok");
         if (time.msec == 10) {
           time.sec++;
+          git;
           time.msec = 0;
         }
         if (time.sec == 60) {
